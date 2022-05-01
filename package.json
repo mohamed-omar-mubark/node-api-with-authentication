@@ -1,0 +1,31 @@
+{
+  "name": "node-api-with-authentication",
+  "version": "1.0.0",
+  "description": "Node.js restful api with authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed-omar-mubark/node-api-with-authentication.git"
+  },
+  "author": "Mohamed Omar Mubark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed-omar-mubark/node-api-with-authentication/issues"
+  },
+  "homepage": "https://github.com/mohamed-omar-mubark/node-api-with-authentication#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
